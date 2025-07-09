@@ -20,7 +20,7 @@ const Header = () => {
 
   const navItems = [
     { name: 'Home', href: '/' },
-    { name: 'Shop', href: '#' },
+    { name: 'Smart Mission Pick', href: '/smart-mission-pick' },
     { name: 'Categories', href: '/categories' },
     { name: 'About', href: '/about' }
   ];

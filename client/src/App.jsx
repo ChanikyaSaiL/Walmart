@@ -7,6 +7,7 @@ import About from "./components/About";
 import Products from "./components/Products";
 import Cart from "./components/Cart";
 import Wishlist from "./components/Wishlist";
+import SmartMissionPick from "./components/SmartMissionPick";
 import { ShopProvider } from "./context/ShopContext";
 
 function App() {
@@ -19,6 +20,10 @@ function App() {
         {
           path: "",
           element:<Home />
+        },
+        {
+          path:"smart-mission-pick",
+          element:<SmartMissionPick />
         },
         {
           path:"categories",
